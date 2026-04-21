@@ -69,7 +69,7 @@ ${code}`,
 
     // Make the API request to Gemini
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCq2h_0hGCrlEAb3yDxQ1M4qnqA4OMoaB8`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=`,
       {
         method: "POST",
         headers: {
